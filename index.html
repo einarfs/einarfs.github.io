@@ -3,11 +3,14 @@
     <head>
         <meta name="google-site-verification" content="de6OORRqPyqDbfb6fX8I24dGMD5Nw3t2aqOY2pYDVmQ" />
         <meta charset="utf-8" target="_blank">
-        <meta name="viewport" content="width=device-width, initial-scale=1" target="_blank">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" target="_blank">
         <title>Einar Freyr Sigurðsson</title>
     </head>
     <body>
         <style>
+            body {
+                width: 100%;
+            }
             h1 {
                 font-family: sans-serif;
                 margin-bottom: -30px;
@@ -21,11 +24,12 @@
                 color: white;
                 padding-top: 20px;
                 padding-bottom: 20px;
-                padding-left: 100px;
+                text-align: center;
             }
             h3 {
                 font-family: sans-serif;
-                margin-left: 100px;
+                font-size: 18px;
+                padding-inline: max(1rem, calc((100% - 90ch) / 2));
             }
             p {
                 font-family: sans-serif;
@@ -33,10 +37,7 @@
                 margin-top: 0;
                 margin-bottom: 15px;
                 line-height: 20px;
-                margin-left: 100px;
-                margin-right: 400px;
-                text-indent: -36px;
-                padding-left: 36px;
+                padding-inline: max(1rem, calc((100% - 90ch) / 2));
             }
             a:hover {
                 opacity: 0.6;
@@ -47,12 +48,24 @@
             a:visited {
                 color: rgb(0,104,65);
             }
+            .myndir-images {
+                width: 50px;
+                margin-left: 32px;
+                margin-bottom: -12px;
+            }
+            .papers {
+                width: 100%;
+            }
         </style>
-        <h1 class="titleup">Einar Freyr Sigurðsson</h1>
+        <h1 class="titleup">Einar Freyr Sigurðsson <a href="https://arnastofnun.is" target="_blank"><img class="myndir-images" src="files/arnlogo.png"></a></h1>
         <h2 class="titleup">Rannsóknardósent / Research Associate Professor
-            <br>Árnastofnun / The Árni Magnússon Institute for Icelandic Studies</h3>
+            <br>Árnastofnun / The Árni Magnússon Institute for Icelandic Studies</h2>
         <h3>Útgefin verk / Publications</h3>
+        <div class="papers">
         <p>Einar Freyr Sigurðsson & Jim Wood. 2023. <a href="files/EinarJim2023Madur.pdf" target="_blank" target="_blank"><i>Maður</i>, fornöfn og hrappar</a>. <i>Íslenskt mál og almenn málfræði</i> 45:9–49.</p>
+        <p>Hjalti Daníelsson, Jón Hilmar Jónsson, Þórður Arnar Árnason, Alec Shaw, Einar Freyr Sigurðsson & Steinþór Steingrímsson. 2021. <a href="https://aclanthology.org/2021.nodalida-main.48/" target="_blank">The Icelandic Word Web: A Language Technology Focused Redesign of a Lexicosemantic Database</a>. <i>Proceedings of the 23rd Nordic Conference on Computational Linguistics (NoDaLiDa)</i>, pp. 429–434. Linköping University Electronic Press, Sweden.</p>
+        <p>Steinunn Rut Friðriksdóttir, Atli Jasonarson, Steinþór Steingrímsson & Einar Freyr Sigurðsson. 2021. ALEXIA: A Lexicon Acquisition Tool. <i>Proceedings of CLARIN Annual Conference 2021</i>, pp. 64–67. Eds. Monica Monachini and Maria Eskevich. Virtual Edition, 2021.</p>
+        <p>Anna Björk Nikulásdóttir, Þórunn Arnardóttir, Jón Guðnason, Þorsteinn Daði Gunnarsson, Anton Karl Ingason, Haukur Páll Jónsson, Hrafn Loftsson, Hulda Óladóttir, Einar Freyr Sigurðsson, Atli Þór Sigurgeirsson, Vésteinn Snæbjarnarson and Steinþór Steingrímsson. 2021. <a href="https://doi.org/10.3384/9789179294441" target="_blank">Help Yourself from the Buffet: National Language Technology Infrastructure Initiative on CLARIN-IS.</a> <i>Proceedings of CLARIN Annual Conference 2021</i>, pp. 64–67. Eds. Monica Monachini & Maria Eskevich. Virtual Edition, 2021.</p>
         <p>Anton Karl Ingason & Einar Freyr Sigurðsson. 2020. Attributive compounds. Rochelle Lieber (ed. in chief): <i>The Oxford Encyclopedia of Morphology</i>. Oxford University Press, Oxford.</p>
         <p>Þórunn Arnardóttir, Hinrik Hafsteinsson, Einar Freyr Sigurðsson, Kristín Bjarnadóttir, Anton Karl Ingason, Hildur Jónsdóttir & Steinþór Steingrímsson. 2020. <a href="https://aclanthology.org/2020.udw-1.3/" target="_blank">A Universal Dependencies Conversion Pipeline for a Penn-format Constituency Treebank</a>. <i>Proceedings of the Fourth Workshop on Universal Dependencies (UDW 2020)</i>, pp. 16–25, Barcelona, Spain (Online). Association for Computational Linguistics.</p>
         <p>Hinrik Hafsteinsson & Einar Freyr Sigurðsson. 2020. <a href="https://tidsskrift.dk/nsil/article/view/124013/170973" target="_blank">A word frequency dictionary of Icelandic child-directed speech</a>. <i>Nordiska studier i leksikografi</i> 15:115–123.</p>
@@ -98,8 +111,9 @@
         <p>Eiríkur Rögnvaldsson, Anton Karl Ingason, Einar Freyr Sigurðsson & Joel Wallenberg. 2011. <a href="https://eirikur.hi.is/dual.pdf" target="_blank">Creating a dual-purpose treebank</a>. <i>Journal for Language Technology and Computational Linguistics</i> 26(2):141–152.</p>
         <p>Jim Wood & Einar Freyr Sigurðsson. <a href="https://projekt.ht.lu.se/fileadmin/_migrated/content_uploads/Sigurdsson._WPSS_88._slutversion.pdf" target="_blank">Icelandic Verbal Agreement and Pronoun-Antecedent Relations</a>. <i>Working Papers in Scandinavian Syntax</i> 88:81–130.</p>
         <p>Hlíf Árnadóttir, Thórhallur Eythórsson & Einar Freyr Sigurðsson. <a href="http://www.ub.uit.no/baser/septentrio/index.php/nordlyd/article/view/2024/1884" target="_blank">The passive of reflexive verbs in Icelandic</a>. <i>Nordlyd</i> 37:39–97. (Tania Strahan, ed.)</p>
-        <p>Eiríkur Rögnvaldsson, Anton Karl Ingason & Einar Freyr Sigurðsson. <a href="https://journals.uio.no/osla/article/view/104" target="_blank">Coping with Variation in the Icelandic Diachronic Treebank</a>. <i>Oslo Studies in Language</i> 3(2):97–112. (Janne Bondi Johannessen, ed.)
-    </p>
+        <p>Eiríkur Rögnvaldsson, Anton Karl Ingason & Einar Freyr Sigurðsson. <a href="https://journals.uio.no/osla/article/view/104" target="_blank">Coping with Variation in the Icelandic Diachronic Treebank</a>. <i>Oslo Studies in Language</i> 3(2):97–112. (Janne Bondi Johannessen, ed.)</p>
+        <p>Einar Freyr Sigurðsson. 2010. <a href="https://ritaskra.arnastofnun.is//media/skraning_pdf/Einar2010NyjaTholmyndin.pdf" target="_blank">Nýja þolmyndin og hringurinn sem mér var gefið</a>. <i>Nokkrar handlínur bróderaðar handa Kristínu Bjarnadóttur sextugri 9. janúar 2010</i>, pp. 22–26. Reykjavík: Menningar- og minningarsjóður Mette Magnussen.</p>
+    </div>
         <h3>Fyrirlestrar og kynningar / Presentations</h3>
         <h3>Óútgefin handrit / Manuscripts</h3>
 
